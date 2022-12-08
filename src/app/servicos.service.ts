@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
 })
 export class ServicosService {
 
-  servicosUrl = 'https://mewtwotcc.free.beeceptor.com/servicos';
+  servicosUrl = 'https://tccprojeto.free.beeceptor.com';
   constructor(private http: HttpClient) { }
 
   listar(){
